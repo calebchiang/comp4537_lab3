@@ -2,7 +2,7 @@ const http = require('http');
 const url = require('url');
 const { getDate } = require('./modules/utils');
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 const server = http.createServer((req, res) => {
     const parsedUrl = url.parse(req.url, true);
