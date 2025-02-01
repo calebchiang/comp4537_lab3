@@ -1,0 +1,21 @@
+{
+  "name": "lab3",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calebchiang/comp4537_lab3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/calebchiang/comp4537_lab3/issues"
+  },
+  "homepage": "https://github.com/calebchiang/comp4537_lab3#readme",
+  "description": ""
+}
